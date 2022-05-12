@@ -1,5 +1,9 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-//import './index.css'
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from "./router";
 
-createApp(App).mount('#app')
+//Vue.config.productionTip = false;
+
+createApp(App).use(router).mount("#app"); // .use(router) 추가
+
+//createApp(App).mount('#app')

@@ -72,9 +72,11 @@ export default {
       <Webtoon v-bind:items="webtoons" /> -->
 
       <!-- <VModel />
-      <Computed /> -->
-      <Watch />
+      <Computed /> 
+      <Watch />-->
     </div>
+
+    <router-view />
   </div>
 </template>
 
